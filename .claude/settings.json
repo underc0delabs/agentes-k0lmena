@@ -1,0 +1,9 @@
+{
+  "enabledMcpjsonServers": ["playwright", "playwright-headless"],
+  "permissions": {
+    "allow": [
+      "mcp__playwright__*",
+      "mcp__playwright-headless__*"
+    ]
+  }
+}

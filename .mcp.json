@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest", "--output-dir", "output/ejecuciones/evidencia"]
+    },
+    "playwright-headless": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest", "--headless", "--output-dir", "output/ejecuciones/evidencia"]
+    }
+  }
+}
